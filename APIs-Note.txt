@@ -1,0 +1,29 @@
+Authentication APIs
+--------------------
+http://127.0.0.1:8000/authentication/api/records/
+
+
+Dashboard APIs
+-----------------
+http://127.0.0.1:8000/dashboard/api/
+
+
+
+Problem-List APIs   
+-------------------
+http://127.0.0.1:8000/problem_list/api/
+
+
+
+///////////////////////////////
+http://127.0.0.1:8000/authentication/api/records/ [GET, POST]
+http://127.0.0.1:8000/authentication/api/records/1/ [GET, POST, PUT, PATCH, DELETE]
+http://127.0.0.1:8000/dashboard/api/bookmarks/ [GET, POST]
+http://127.0.0.1:8000/dashboard/api/bookmarks/1/ [GET, POST, PUT, PATCH, DELETE]
+http://127.0.0.1:8000/dashboard/api/problem-status/ [GET, POST]
+http://127.0.0.1:8000/dashboard/api/problem-status/1 [GET, POST, PUT, PATCH, DELETE]
+http://127.0.0.1:8000/problem_list/api/problems/ [GET, POST]
+http://127.0.0.1:8000/problem_list/api/problems/1 [GET, POST, PUT, PATCH, DELETE]
+http://127.0.0.1:8000/problem_list/api/status/ [GET, POST]
+http://127.0.0.1:8000/problem_list/api/status/1 [GET, POST, PUT, PATCH, DELETE]
+
